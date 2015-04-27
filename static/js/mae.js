@@ -1,5 +1,5 @@
 function changeImage(img) {
-  document.getElementById("gallery-main").src="http://maeheydorn.com/wp-content/uploads/2011/03/" + img;
+  document.getElementById("gallery-main").src="/static/img/" + img;
 }
 
 function highlight(elem) {
