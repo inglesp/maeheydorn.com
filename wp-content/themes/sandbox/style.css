@@ -1,0 +1,134 @@
+/*
+THEME NAME: Heydorn
+*/
+
+* {
+    font-family: "Gill Sans", "Century Gothic";
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+body {
+    background-color: #000000;
+    background-image: url("1.jpg");
+    background-position: left top;
+    background-repeat: repeat;
+    margin: 0;
+}
+
+div#wrapper {
+    background-color: #000000;
+    background-image: url("dark1.jpg");
+    text-align: left;
+    width: 720px;
+    margin: 0 auto;
+    border-width: 0 1px;
+    border: solid;
+    border-color: #000000;
+}
+
+div#header {
+    clear: both;
+    overflow: auto;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+div#nav ul {
+    float: right;
+    list-style: none;
+    margin: 5px
+}
+
+div#nav li {
+    float: left;
+    margin-left: 2em;
+}
+
+div#content {
+    clear: both;
+    margin: 10px;
+}
+
+div#content {
+    clear: both;
+    margin: 10px;
+}
+
+div#footer {
+    overflow: auto;
+    clear: both;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.bordered-above {
+    border-top-color: #ffffff;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.narrow {
+    width: 330px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h4 {
+    font-weight: normal;
+    font-style: italic;
+}
+p.contact-info {
+    font-size: 110%;
+    padding-top: 220px;
+    margin-left: 10px;
+}
+
+p.credits {
+    float: right;
+    font-size: 80%;
+}
+
+img.img-main {
+    margin: 5px;
+    margin-top: 25px;
+}
+
+img.img-diary{
+    float: right;
+    margin: 10px;
+}
+
+img.img-contact {
+    float: right;
+    margin: 10px;
+}
+
+img.gallery-main {
+    height: 385px;
+    display: block;
+    margin: 25px auto;
+    text-align: center;
+}
+
+img.gallery-thumb {
+    height: 120px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    margin: 3px 15px;
+}
+
+img.gallery-thumb-highlighted {
+    height: 120px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+    margin: 3px 15px;
+}
