@@ -9,7 +9,7 @@
 		<script type="text/javascript" src="wp-content/mae.js"></script>
 	</head>
 
-	<body class="wordpress y2015 m04 d27 h17 home page pageid-8 page-author-peter page-template page-template-default">
+	<body>
 		<div id="wrapper">
 			<div id="header">
 				<div id="nav">
@@ -20,14 +20,16 @@
 						<li><a href="/blog">BLOG</a></li>
 						<li><a href="/contact">CONTACT</a></li>
 					</ul>
-				</div> <!-- nav --!>
-			</div> <!-- header --!>
+				</div>
+			</div>
 
-			{{ content }}
+			<div id="content" class="bordered-above">
+				{{ content }}
+			</div>
 
 			<div id="footer" class="bordered-above">
 				<p class="credits">Photos: Alex Rumford</p>
-			</div><!-- #footer -->
-		</div><!-- #wrapper -->
+			</div>
+		</div>
 	</body>
 </html>
