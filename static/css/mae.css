@@ -1,7 +1,3 @@
-/*
-THEME NAME: Heydorn
-*/
-
 * {
     font-family: "Gill Sans", "Century Gothic";
     font-weight: lighter;
@@ -10,7 +6,7 @@ THEME NAME: Heydorn
 
 body {
     background-color: #000000;
-    background-image: url("1.jpg");
+    background-image: url("background.jpg");
     background-position: left top;
     background-repeat: repeat;
     margin: 0;
@@ -18,7 +14,7 @@ body {
 
 div#wrapper {
     background-color: #000000;
-    background-image: url("dark1.jpg");
+    background-image: url("background-dark.jpg");
     text-align: left;
     width: 720px;
     margin: 0 auto;
