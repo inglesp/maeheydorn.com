@@ -128,3 +128,11 @@ img.gallery-thumb-highlighted {
     border-color: #ffffff;
     margin: 3px 15px;
 }
+
+ul.date-list {
+    list-style: none;
+}
+
+ul.date-list li {
+    padding-top: 5px;
+}
