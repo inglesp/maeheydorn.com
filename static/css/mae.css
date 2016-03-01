@@ -106,6 +106,10 @@ img.img-contact {
     margin: 10px;
 }
 
+#thumbs table {
+    margin: 0 auto;
+}
+
 img.gallery-main {
     height: 385px;
     display: block;
