@@ -41,6 +41,14 @@ div#nav li {
     margin-left: 2em;
 }
 
+div#nav a {
+    border-bottom: 0px;
+}
+
+div#nav a:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
 div#content {
     clear: both;
     margin: 10px;
@@ -67,13 +75,14 @@ div#footer {
 .narrow {
     width: 330px;
 }
-a {
-    color: #ffffff;
+
+a {    
+    border-bottom: 1px dotted #ffffff;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid #ffffff;
 }
 
 h4 {
@@ -139,4 +148,8 @@ ul.date-list {
 
 ul.date-list li {
     padding-top: 5px;
+}
+
+ul.date-list li .date {
+    font-style: italic;
 }
