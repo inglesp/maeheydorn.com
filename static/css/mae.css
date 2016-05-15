@@ -153,3 +153,11 @@ ul.date-list li {
 ul.date-list li .date {
     font-style: italic;
 }
+
+ul.cast-list {
+    list-style: none;
+}
+
+ul.cast-list li .cast-member {
+    font-style: italic;
+}
