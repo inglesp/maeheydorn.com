@@ -85,9 +85,19 @@ a:hover {
     border-bottom: 1px solid #ffffff;
 }
 
-h4 {
+strong {
     font-weight: normal;
 }
+
+.listing {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.listing p {
+    margin: 2px;
+}
+
 p.contact-info {
     font-size: 110%;
     padding-top: 200px;
