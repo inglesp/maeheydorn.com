@@ -144,14 +144,6 @@ img.gallery-thumb {
     margin: 3px 15px;
 }
 
-img.gallery-thumb-highlighted {
-    height: 120px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #ffffff;
-    margin: 3px 15px;
-}
-
 ul.date-list {
     list-style: none;
 }
