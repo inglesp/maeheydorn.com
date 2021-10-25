@@ -168,3 +168,7 @@ ul.cast-list {
 ul.cast-list li .cast-member {
     font-style: italic;
 }
+
+ul {
+    list-style: none;
+}
